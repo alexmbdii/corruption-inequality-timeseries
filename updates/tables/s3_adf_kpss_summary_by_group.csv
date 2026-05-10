@@ -1,0 +1,9 @@
+variable,group,n_countries,stationary,non_stationary,ambiguous,n_a
+v2x_corr,OECD,38,4,20,14,0
+v2x_corr,Émergents,56,6,31,19,0
+v2x_corr,Afrique,34,4,18,12,0
+v2x_corr,TOTAL,128,14,69,45,0
+gini_disp,OECD,38,7,21,10,0
+gini_disp,Émergents,56,7,27,22,0
+gini_disp,Afrique,34,1,22,11,0
+gini_disp,TOTAL,128,15,70,43,0

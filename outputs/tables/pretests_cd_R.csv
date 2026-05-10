@@ -1,0 +1,8 @@
+variable,stat,p_value,method
+v2x_corr,8.88751401043008,6.24913429336075e-19,plm::pcdtest CD
+gini_disp,17.1976948317505,2.76307080307759e-66,plm::pcdtest CD
+log_gdp_pc,329.605540210644,0,plm::pcdtest CD
+education_years,333.918704679649,0,plm::pcdtest CD
+trade_open,77.4854618210123,0,plm::pcdtest CD
+gov_size,37.2128354386342,4.23150009782915e-303,plm::pcdtest CD
+v2x_polyarchy,26.5522073471051,2.42180776317528e-155,plm::pcdtest CD

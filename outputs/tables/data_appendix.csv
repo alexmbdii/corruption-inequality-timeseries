@@ -1,0 +1,16 @@
+variable,source,description,transformations,n_obs,n_countries,coverage,missingness
+v2x_corr,V-Dem v16,Political corruption index (primary corruption),Higher = more corrupt; aggregated over 4 sub-indicators.,4347,128,1990–2023,0.1%
+v2x_pubcorr,V-Dem v16,Public-sector corruption index (robustness),,4347,128,1990–2023,0.1%
+v2x_execorr,V-Dem v16,Executive corruption index (robustness),,4347,128,1990–2023,0.1%
+v2x_jucorr_inv,V-Dem v16,Judicial corruption (inverted from v2jucorrdc),Higher = more corrupt after sign-flip.,4347,128,1990–2023,0.1%
+v2x_polyarchy,V-Dem v16,Electoral democracy index (control),,4347,128,1990–2023,0.1%
+gini_disp,SWIID v9.7 summary,"Net Gini, post-tax/transfer (primary inequality)",,3751,128,1990–2022,13.8%
+gini_disp_se,SWIID v9.7 summary,SE of net Gini,,3751,128,1990–2022,13.8%
+gini_mkt,SWIID v9.7 summary,"Market Gini, pre-tax/transfer (robustness)",,3751,128,1990–2022,13.8%
+gini_mkt_se,SWIID v9.7 summary,SE of market Gini,,3751,128,1990–2022,13.8%
+wgi_coc,WB WGI db=3,Control of Corruption (1996+ only),Higher = better governance; we report wgi_coc_inv for sign-consistency.,3200,128,1996–2023,26.5%
+wid_top10,WID v2024,Top-10% pre-tax national income share (sptincj992),,4317,127,1990–2023,0.8%
+log_gdp_pc,WB WDI,"ln(GDP per capita, constant USD) — control",,4280,127,1990–2023,1.6%
+education_years,Barro-Lee v2.2,"Mean years schooling, 15+ (5y → annual interp.)","Pre-2010: linear interp. of 1990,1995,...,2010. 2011+: held constant at 2010 (UNESCO UIS extension reserved for robustness).",3910,115,1990–2023,10.1%
+trade_open,WB WDI,Trade (% of GDP) — control,,3966,122,1990–2023,8.8%
+gov_size,WB WDI,Govt consumption (% of GDP) — control,,3932,123,1990–2023,9.6%

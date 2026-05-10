@@ -1,0 +1,2 @@
+y,x,window_start,window_end,pedroni_panel_rejects,pedroni_group_rejects,westerlund_rejects,cointegrated,phase3_model
+gini_disp,v2x_corr,1995,2020,1,0,4,False,PVAR_diff

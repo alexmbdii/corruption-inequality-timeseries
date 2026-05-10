@@ -1,0 +1,3 @@
+variable,n_breaks,break_years,bic_optimum
+v2x_corr,3,1994;2012;2017,1
+gini_disp,3,1993;2013;2017,1

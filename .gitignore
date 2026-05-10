@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Notebook output checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Local raw extracts (re-extract from ../*.zip; tracked in data/processed/ instead)
+data/raw_extract/
+
+# Userspace R toolchain (~700 MB; reproduce via micromamba per HANDOFF.md)
+tools/
+
+# uv lock is kept; pyproject.toml is the source of truth
+# (uv.lock is large but committed for reproducibility)
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
