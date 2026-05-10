@@ -1,2 +1,2 @@
 # corruption-inequality-timeseries
-Time series and panel-data analysis of the dynamic relationship between corruption and income inequality (1990–2023).
+Does corruption drive inequality - or the reverse? A panel Granger causality study across 128 countries (1990–2023).
